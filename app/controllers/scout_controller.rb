@@ -1,5 +1,5 @@
 class ScoutController < ApplicationController
-  def name:string
+  def name
   end
 
   def index

@@ -1,5 +1,7 @@
 Scouts::Application.routes.draw do
-  get "scout/name:string"
+  resources :members
+
+  get "scout/name"
 
   get "scout/index"
 
